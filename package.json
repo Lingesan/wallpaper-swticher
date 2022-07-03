@@ -1,0 +1,31 @@
+{
+  "name": "wallpaper-switcher",
+  "version": "1.0.0",
+  "description": "An Application to switch your wallpaper every day",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js &"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lingesan/wallpaper-switcher.git"
+  },
+  "keywords": [
+    "Wallpaper",
+    "Unsplash"
+  ],
+  "author": "Lingesan S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lingesan/wallpaper-switcher/issues"
+  },
+  "homepage": "https://github.com/Lingesan/wallpaper-switcher#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "screenz": "^1.0.0",
+    "uuid": "^8.3.2",
+    "wallpaper": "^6.1.1"
+  }
+}
